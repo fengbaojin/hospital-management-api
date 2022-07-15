@@ -1,0 +1,63 @@
+
+c	java:S112›"FDefine and throw a dedicated exception instead of using a generic one.(…ã˜8ÆÖƒóš0
+R
+java:S3740ˆ"/Provide the parametrized type for this generic.(°ÓÜüûÿÿÿÿ8ÈÖƒóš0
+p
+java:S1192B"SDefine a constant instead of duplicating this literal "æ— æ•ˆçš„ç”¨æˆ·ID" 19 times.(àİ¯‚8ÉÖƒóš0
+s
+java:S1192S"VDefine a constant instead of duplicating this literal "æ— æ•ˆçš„ä¿®æ”¹å‚æ•°" 3 times.(ÖÆµÜ8ÊÖƒóš0
+€
+java:S1192B"cDefine a constant instead of duplicating this literal "æ— æ•ˆçš„ç™»å½•ä¿¡æ¯ï¼Œè¯·ç™»å½•" 19 times.(àİ¯‚8ÊÖƒóš0
+s
+java:S1192é"PDefine a constant instead of duplicating this literal "è¯·é€‰æ‹©æœˆä»½" 4 times.(íñ­êÿÿÿÿÿ8ÊÖƒóš0
+P
+java:S1874#"3Remove this use of "description"; it is deprecated.(Ö„Ò–8·×ƒóš0
+
+java:S1130?"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ã´–®ùÿÿÿÿ8º×ƒóš0
+‰
+java:S1130M"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(íÇõ¾8¾×ƒóš0
+C
+java:S1452M"&Remove usage of generic wildcard type.(íÇõ¾8¾×ƒóš0
+ˆ
+java:S1130_"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(«¼Ù8Á×ƒóš0
+ˆ
+java:S1130q"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ıüÔ8Ã×ƒóš0
+B
+java:S1452q"&Remove usage of generic wildcard type.(ıüÔ8Ä×ƒóš0
+
+java:S1130Œ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ã´–®ùÿÿÿÿ8Æ×ƒóš0
+Š
+java:S1130›"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(…ã˜8Û×ƒóš0
+D
+java:S1452›"&Remove usage of generic wildcard type.(…ã˜8Û×ƒóš0
+
+java:S1130¶"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ã´–®ùÿÿÿÿ8Ş×ƒóš0
+Š
+java:S1130Ä"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(òÇ§ó8á×ƒóš0
+Š
+java:S1130Ó"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ã¼‘«8ä×ƒóš0
+
+java:S1130ã"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯ïøÿÿÿÿ8ç×ƒóš0
+
+java:S1130ÿ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Á„•üÿÿÿÿ8ê×ƒóš0
+
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯ïøÿÿÿÿ8í×ƒóš0
+
+java:S1130£"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯ïøÿÿÿÿ8ğ×ƒóš0
+
+java:S1130¶"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯ïøÿÿÿÿ8ó×ƒóš0
+
+java:S1130Ë"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Á•ªîşÿÿÿÿ8õ×ƒóš0
+I
+java:S1452É"&Remove usage of generic wildcard type.(ı¡æ‘ÿÿÿÿÿ8ö×ƒóš0
+Š
+java:S1130Ø"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(û¯‡º8ø×ƒóš0
+
+java:S1130ç"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(•‡‹ùÿÿÿÿ8ú×ƒóš0
+I
+java:S1452æ"&Remove usage of generic wildcard type.(„÷›ûÿÿÿÿ8‚Øƒóš0
+C
+java:S1452ô"&Remove usage of generic wildcard type.(¤’êv8…Øƒóš0
+
+java:S1130ˆ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(°ÓÜüûÿÿÿÿ8‡Øƒóš0
+Y	java:S125"<This block of commented-out lines of code should be removed.(Ë‘Èõ8‰Øƒóš0

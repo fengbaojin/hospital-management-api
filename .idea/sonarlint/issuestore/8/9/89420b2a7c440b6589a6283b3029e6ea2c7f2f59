@@ -1,0 +1,11 @@
+
+c
+java:S22594"FA "NullPointerException" could be thrown; "filename" is nullable here.(Ê›ÆÄ8¦ò¾èš0
+Ž
+java:S1130%"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(©‚¼´ùÿÿÿÿ8«ò¾èš0
+T
+java:S1874{"7Remove this use of "getCellTypeEnum"; it is deprecated.(µß™é8Ìò¾èš0
+X	java:S125~"<This block of commented-out lines of code should be removed.(ûÉ½ÿ8Ìò¾èš0
+^	java:S125‡"<This block of commented-out lines of code should be removed.(ºéò˜ùÿÿÿÿ8Îò¾èš0
+[	java:S106‘"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8Îò¾èš0
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(«òˆì8Ïò¾èš0

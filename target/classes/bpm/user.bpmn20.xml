@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="leave" name="请假流程" isExecutable="true">
+    <documentation>用户请假流程</documentation>
+    <startEvent id="1" name="启动" activiti:initiator="userId"></startEvent>
+    <userTask id="2" name="学生填写请假单" activiti:assignee="$INITIATOR">
+      <extensionElements>
+        <modeler:activiti-idm-initiator xmlns:modeler="http://activiti.com/modeler"><![CDATA[true]]></modeler:activiti-idm-initiator>
+      </extensionElements>
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="${student}">
+        <completionCondition>${nrOfCompletedInstances==1||nrOfCompletedInstances==nrOfInstances||toComplete==1}</completionCondition>
+      </multiInstanceLoopCharacteristics>
+    </userTask>
+    <userTask id="3" name="班主任审批" activiti:assignee="$INITIATOR">
+      <extensionElements>
+        <modeler:activiti-idm-initiator xmlns:modeler="http://activiti.com/modeler"><![CDATA[true]]></modeler:activiti-idm-initiator>
+      </extensionElements>
+      <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="${teacher}">
+        <completionCondition>${nrOfCompletedInstances==1||nrOfCompletedInstances==nrOfInstances||toComplete==1}</completionCondition>
+      </multiInstanceLoopCharacteristics>
+    </userTask>
+    <sequenceFlow id="sid-621354A7-86E0-49C1-8358-D7A14962E672" sourceRef="1" targetRef="2"></sequenceFlow>
+    <sequenceFlow id="sid-F7FF07F3-DB26-4A95-A410-636228EB33BB" sourceRef="2" targetRef="3"></sequenceFlow>
+    <endEvent id="sid-D891F3A5-6676-4FB6-97B8-D12674EBE161"></endEvent>
+    <sequenceFlow id="sid-DA986C80-5E08-4DD3-B1A5-A008AD41754F" sourceRef="3" targetRef="sid-D891F3A5-6676-4FB6-97B8-D12674EBE161"></sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_leave">
+    <bpmndi:BPMNPlane bpmnElement="leave" id="BPMNPlane_leave">
+      <bpmndi:BPMNShape bpmnElement="1" id="BPMNShape_1">
+        <omgdc:Bounds height="30.0" width="30.0" x="135.0" y="100.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="2" id="BPMNShape_2">
+        <omgdc:Bounds height="80.0" width="100.0" x="285.0" y="75.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="3" id="BPMNShape_3">
+        <omgdc:Bounds height="80.0" width="100.0" x="540.0" y="75.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-D891F3A5-6676-4FB6-97B8-D12674EBE161" id="BPMNShape_sid-D891F3A5-6676-4FB6-97B8-D12674EBE161">
+        <omgdc:Bounds height="28.0" width="28.0" x="765.0" y="101.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-DA986C80-5E08-4DD3-B1A5-A008AD41754F" id="BPMNEdge_sid-DA986C80-5E08-4DD3-B1A5-A008AD41754F">
+        <omgdi:waypoint x="640.0" y="115.0"></omgdi:waypoint>
+        <omgdi:waypoint x="765.0" y="115.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-F7FF07F3-DB26-4A95-A410-636228EB33BB" id="BPMNEdge_sid-F7FF07F3-DB26-4A95-A410-636228EB33BB">
+        <omgdi:waypoint x="385.0" y="115.0"></omgdi:waypoint>
+        <omgdi:waypoint x="540.0" y="115.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-621354A7-86E0-49C1-8358-D7A14962E672" id="BPMNEdge_sid-621354A7-86E0-49C1-8358-D7A14962E672">
+        <omgdi:waypoint x="165.0" y="115.0"></omgdi:waypoint>
+        <omgdi:waypoint x="285.0" y="115.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

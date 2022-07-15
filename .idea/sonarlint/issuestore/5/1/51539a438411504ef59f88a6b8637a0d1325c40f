@@ -1,0 +1,19 @@
+
+d
+java:S1192"FDefine a constant instead of duplicating this literal "ttttt" 3 times.(Ş ¢8üùõî•0
+f
+java:S2259"CA "NullPointerException" could be thrown; "check" is nullable here.(À…Ó“üÿÿÿÿ8ûõî•0
+\
+java:S6213V":Rename this variable to not match a restricted identifier.(Ì«¿Øúÿÿÿÿ8™ûõî•0
+W
+java:S1854„"9Remove this useless assignment to local variable "count".(¿îÊÔ8¼ûõî•0
+H
+java:S1481„"*Remove this unused "count" local variable.(¿îÊÔ8Îûõî•0
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Úšÿ¸8Ñûõî•0
+[	java:S106‘"9Replace this use of System.out or System.err by a logger.(ôÉËƒşÿÿÿÿ8Òûõî•0
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(Ç’£¢ùÿÿÿÿ8Óûõî•0
+]
+java:S6213¬":Rename this variable to not match a restricted identifier.(Ì«¿Øúÿÿÿÿ8Ûûõî•0
+^	java:S125Ï"<This block of commented-out lines of code should be removed.(à¸Â°şÿÿÿÿ8‚üõî•0
+]
+java:S6213×":Rename this variable to not match a restricted identifier.(Ì«¿Øúÿÿÿÿ8ƒüõî•0
